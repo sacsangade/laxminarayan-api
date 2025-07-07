@@ -59,7 +59,7 @@ const multerStorage = multer.diskStorage({
 let upload  = multer({ storage: multerStorage});
 
 
-router.get("/",(req,res)=>{
+router.get("/api/",(req,res)=>{
 	res.render("pages/index");
 });
 
